@@ -28,6 +28,14 @@ Pour obtenir des images d'une grande surface, il faut relier plusieurs images ca
 ![Couverture satellite de la France](https://images-ext-2.discordapp.net/external/4p7SjYIcn5f5iLTYfIfMQNWeuqEz8khNw533A643jfU/%3Ft%3D1392906248652/https/ids.equipex-geosud.fr/documents/10180/26536/emrpise_france_landsat8.jpg/fd1e7f5b-30b6-4de0-9f5f-51374f011655?width=1064&height=684)
 *Couverture de la France par Landsat 8*
 
+## Usage
+
+1. Lancer `./get_data.sh` pour récupérer les bandes du satellite nécessaires pour utiliser les notebooks. **/!\ ~1,3go de données /!\\**
+2. Dans `./notebooks/`, lancer :
+    1. `band-combination.ipynb` sur les données de Lyon et Lausanne.
+    2. `hsv-pansharpening-satellite.ipynb` sur les données de Lyon et Lausanne.
+    3. `mosaicing-satellite.ipynb` pour obtenir le résultat final.
+
 ## Resultats
 
 ### Band combination
@@ -78,12 +86,4 @@ Pour obtenir des images d'une grande surface, il faut relier plusieurs images ca
 - [Récupérer des données satellites avec Python (librairie datacube)](https://docs.dea.ga.gov.au/notebooks/Frequently_used_code/Pan_sharpening_Brovey.html)
 
 - [Lissage des couleurs lors du mosaicing](https://hal.archives-ouvertes.fr/hal-01373314/file/cresson2015.pdf)
-
-
-## Usage
-
-1. Lancer `get_data.py` pour récupérer les bandes du satellite nécessaires pour utiliser les notebooks. 
-2. Lancer le notebook `band-combination.ipynb` sur les données de Lyon et Lausanne.
-3. Lancer le notebook `hsv-pansharpening-satellite.ipynb` sur les données de Lyon et Lausanne.
-4. Lancer le notebook `mosaicing-satellite.ipynb` pour obtenir le résultat final.
 
