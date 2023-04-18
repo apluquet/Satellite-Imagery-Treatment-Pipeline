@@ -1,5 +1,7 @@
 # Satellite imagery treatment pipeline : band combination, pansharpening & mosaicing
 
+🇫🇷 **Version française disponible** [**ici**](README_FR.md).
+
 ## Under what circumstances is it useful
 
 ### Band combination
@@ -33,7 +35,7 @@ Landsat 8 coverage of France.
    2. `hsv-pansharpening-satellite.ipynb` on data from Lyon and Lausanne.
    3. `mosaicing-satellite.ipynb` to get the final result.
 
-## Resultats
+## Results
 
 ### Band combination
 
@@ -74,3 +76,15 @@ Landsat 8 coverage of France.
   - https://hal-mines-paristech.archives-ouvertes.fr/hal-01024987/document  & [corresponding video](https://www.youtube.com/watch?v=9TgU6migUy0&ab_channel=MITEducation)
 - [Retrieve satellite data with Python (datacube library)](https://docs.dea.ga.gov.au/notebooks/Frequently_used_code/Pan_sharpening_Brovey.html)
 - [Smoothing of colors during mosaicing](https://hal.archives-ouvertes.fr/hal-01373314/file/cresson2015.pdf)
+
+## Languages and tools
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=Python&logoColor=white&style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/-JUPYTER-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Numpy](https://img.shields.io/badge/-NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-21b5f4.svg?style=for-the-badge&logo=Altair&logoColor=white)
+![Pandas](https://img.shields.io/badge/-PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=OpenCV&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+
