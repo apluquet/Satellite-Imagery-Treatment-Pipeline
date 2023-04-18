@@ -1,6 +1,6 @@
-# Satellite imagery treatment pipeline : band combination, pansharpening & mosaicing
+# File de traitement d'imagerie satellitaire : band combination, pansharpening & mosaicing
 
-🇬🇧 **English version available** [**here**](README.md).
+🇬🇧 **English version available** [**here**](../README.md).
 
 ## Dans quelles circonstances cela est utile
 
@@ -89,4 +89,3 @@ Pour obtenir des images d'une grande surface, il faut relier plusieurs images ca
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=OpenCV&logoColor=white&style=for-the-badge)
 ![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
-

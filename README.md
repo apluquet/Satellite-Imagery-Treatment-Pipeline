@@ -1,6 +1,6 @@
 # Satellite imagery treatment pipeline : band combination, pansharpening & mosaicing
 
-🇫🇷 **Version française disponible** [**ici**](README_FR.md).
+🇫🇷 **Version française disponible** [**ici**](./languages/README_FR.md).
 
 ## Under what circumstances is it useful
 
@@ -87,4 +87,3 @@ Landsat 8 coverage of France.
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=OpenCV&logoColor=white&style=for-the-badge)
 ![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
-
