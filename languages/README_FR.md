@@ -1,5 +1,7 @@
 # Satellite imagery treatment pipeline : band combination, pansharpening & mosaicing
 
+🇬🇧 **English version available** [**here**](README.md).
+
 ## Dans quelles circonstances cela est utile
 
 ### Band combination
@@ -27,7 +29,7 @@ Pour obtenir des images d'une grande surface, il faut relier plusieurs images ca
 ![Couverture satellite de la France](https://images-ext-2.discordapp.net/external/4p7SjYIcn5f5iLTYfIfMQNWeuqEz8khNw533A643jfU/%3Ft%3D1392906248652/https/ids.equipex-geosud.fr/documents/10180/26536/emrpise_france_landsat8.jpg/fd1e7f5b-30b6-4de0-9f5f-51374f011655?width=1064&height=684)
 *Couverture de la France par Landsat 8*
 
-## Usage
+## Utilisation
 
 1. Lancer `./get_data.sh` pour récupérer les bandes du satellite nécessaires pour utiliser les notebooks. **/!\ ~1,3go de données /!\\**
 2. Dans `./notebooks/`, lancer :
@@ -76,3 +78,15 @@ Pour obtenir des images d'une grande surface, il faut relier plusieurs images ca
   - https://hal-mines-paristech.archives-ouvertes.fr/hal-01024987/document  & [vidéo correspondante](https://www.youtube.com/watch?v=9TgU6migUy0&ab_channel=MITEducation)
 - [Récupérer des données satellites avec Python (librairie datacube)](https://docs.dea.ga.gov.au/notebooks/Frequently_used_code/Pan_sharpening_Brovey.html)
 - [Lissage des couleurs lors du mosaicing](https://hal.archives-ouvertes.fr/hal-01373314/file/cresson2015.pdf)
+
+## Langages et outils
+
+![Python](https://img.shields.io/badge/-Python-3776AB?logo=Python&logoColor=white&style=for-the-badge)
+![Jupyter](https://img.shields.io/badge/-JUPYTER-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Numpy](https://img.shields.io/badge/-NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-21b5f4.svg?style=for-the-badge&logo=Altair&logoColor=white)
+![Pandas](https://img.shields.io/badge/-PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?logo=OpenCV&logoColor=white&style=for-the-badge)
+![Git](https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white)
+
